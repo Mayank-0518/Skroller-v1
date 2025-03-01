@@ -91,7 +91,7 @@ function Home() {
           {posts.map((post) => (
             <div key={post.$id} className="p-4 w-full sm:w-1/2 lg:w-1/3 xl:w-1/4">
               <PostCard
-                id={post.$id}
+                $id={post.$id}
                 title={post.title}
                 featuredImage={post.featuredImage}
               />
