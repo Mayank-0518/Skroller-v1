@@ -100,7 +100,7 @@ function Home() {
         </div>
 
         <div className="text-center mt-12">
-          <Link to="/create-blog">
+          <Link to="/add-post">
             <Button className="text-lg bg-green-500 hover:bg-green-600 px-8 py-4 rounded-lg shadow-xl transition-all">
               Create New Blog
             </Button>
